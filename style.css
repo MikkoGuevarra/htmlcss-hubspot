@@ -54,8 +54,26 @@ button {
 #login {
     border: 1px solid #ff7a59;
     background-color: #fff;
+    color: #ff7a59;
 }
 
+#free {
+    background-color: #ff7a59;
+    border-color: #ff7a59;
+    color: #fff;
+}
+
+#login:hover {
+    background-color: #ffbcac;
+    color: #fff;
+}
+
+#free:hover {
+    background-color: #fff;
+    color: #ffbcac;
+}
+
+/* ------fine upper head part------ */
 
 .lower-head {
     height: 100px;
