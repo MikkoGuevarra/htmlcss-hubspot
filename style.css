@@ -111,6 +111,18 @@ button {
     background-color: #425b76;
 }
 
+.promo-side p {
+    font-size: 18px;
+    color: white;
+    padding: 15px;
+    margin: 10px 5px;
+    letter-spacing: 0.8px
+
+}
+
+.promo-side p a {
+    color: white;
+}
 /* ------fine promo part----- */
 
 /* ------main part------- */
