@@ -15,14 +15,47 @@
 
 header {
     width: 100%;
-    height: 200px;
-    background-color: yellow;
 }
 
 .upper-head {
-    height: 100px;
-    background-color: blue;
+    background-color: #f5f8fa;
 }
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px 0;
+}
+
+ul li a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+}
+
+button {
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.upper-head-right {
+    float: right;
+}
+
+.upper-head-left {
+    display: inline-block;
+}
+
+#login {
+    border: 1px solid #ff7a59;
+    background-color: #fff;
+}
+
 
 .lower-head {
     height: 100px;
