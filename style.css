@@ -28,3 +28,10 @@ header {
     height: 100px;
     background-color: red;
 }
+
+/* promo part under the header */
+
+.promo-side {
+    height: 100px;
+    background-color: #425b76;
+}
