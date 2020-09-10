@@ -12,7 +12,7 @@
 }
 
 body  {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* ------header part------ */
@@ -116,7 +116,7 @@ button {
     color: white;
     padding: 25px;
     margin: 12px 5px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .promo-side p a {
@@ -130,6 +130,27 @@ button {
 
 main {
     width: 100%;
+    height: 800px;
+    background-image: url(https://www.npws.net/wp-content/uploads/2020/06/HubSpot-Background-2.png);
+}
+
+.main-part {
     height: 500px;
+    width: 500px;
     background-color: gold;
+    padding: 40px 0;
+    color: grey;
+
+}
+
+h1 {
+    font-size: 65px;
+    letter-spacing: 2px;
+    color: darkgray;
+}
+
+.main-part p {
+    font-size: 20px;
+    padding: 20px 0;
+    letter-spacing: 1px;
 }
