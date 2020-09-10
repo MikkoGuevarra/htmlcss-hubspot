@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    border: 2px solid black;
+    margin: auto;
+    height: 100%;
+}
+
+
+/* ------header part------ */
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+
+.upper-head {
+    height: 100px;
+    background-color: blue;
+}
+.lower-head {
+    height: 100px;
+    background-color: red;
+}
