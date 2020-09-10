@@ -12,6 +12,7 @@
 }
 
 /* ------header part------ */
+/* ------inizio upper head part------ */
 
 header {
     width: 100%;
@@ -47,11 +48,11 @@ button {
     margin-left: 8px;
 }
 
-.upper-head-right {
+.upper-head-right, .nav-bar {
     float: right;
 }
 
-.upper-head-left {
+.upper-head-left, .logo-part {
     float:left;
 }
 
@@ -84,11 +85,22 @@ button {
 }
 
 /* ------fine upper head part------ */
+/* -------inizio lower head part------ */
 
 .lower-head {
-    height: 100px;
-    background-color: red;
+    /* height: 100px; */
 }
+
+.logo-part {
+    width: 300px;
+    height: 100px;
+}
+
+.logo-part img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 
 /* ------fine head part------ */
 
