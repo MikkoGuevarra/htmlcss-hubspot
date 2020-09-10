@@ -72,7 +72,7 @@ button {
     color: #ff7a59;
 }
 
-#free {
+.free {
     background-color: #ff7a59;
     border-color: #ff7a59;
     color: #fff;
@@ -83,7 +83,7 @@ button {
     color: #fff;
 }
 
-#free:hover {
+.free:hover {
     background-color: #fff;
     color: #ffbcac;
 }
@@ -135,22 +135,31 @@ main {
 }
 
 .main-part {
-    height: 500px;
-    width: 500px;
-    background-color: gold;
-    padding: 40px 0;
-    color: grey;
+    width: 430px;
+    padding: 80px 0;
+    color: #33475b;;
 
 }
 
 h1 {
-    font-size: 65px;
+    font-size: 50px;
     letter-spacing: 2px;
-    color: darkgray;
+    color: #425b76;
+
 }
 
 .main-part p {
     font-size: 20px;
     padding: 20px 0;
     letter-spacing: 1px;
+}
+
+.main-part button {
+    font-size: 25px;
+    padding: 25px;
+}
+
+.microtxt {
+    margin-top: 30px;
+    width: 250px;
 }
