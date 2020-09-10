@@ -6,9 +6,13 @@
 
 .container {
     width: 1000px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: auto;
-    height: 100%;
+    /* height: 100%; */
+}
+
+body  {
+    font-family: 'Syne', sans-serif;
 }
 
 /* ------header part------ */
@@ -87,10 +91,6 @@ button {
 /* ------fine upper head part------ */
 /* -------inizio lower head part------ */
 
-.lower-head {
-    /* height: 100px; */
-}
-
 .logo-part {
     width: 300px;
     height: 100px;
@@ -114,15 +114,16 @@ button {
 .promo-side p {
     font-size: 18px;
     color: white;
-    padding: 15px;
-    margin: 10px 5px;
-    letter-spacing: 0.8px
-
+    padding: 25px;
+    margin: 12px 5px;
+    letter-spacing: 1.5px;
 }
 
 .promo-side p a {
     color: white;
 }
+
+
 /* ------fine promo part----- */
 
 /* ------main part------- */
