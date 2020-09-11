@@ -26,16 +26,19 @@ header {
     background-color: #f5f8fa;
 }
 
+.upper-head-left, .upper-head-right, .nav-bar {
+    height: 100px;
+    padding: 20px 0;
+}
+
 ul li {
     list-style: none;
     display: inline-block;
-    height: 40px;
-    line-height: 40px;
-    margin: 20px 0;
+    height: 60px;
+    line-height: 60px;
 }
 
 ul li a {
-    padding: 10px;
     text-decoration: none;
     font-size: 20px;
     color: grey;
@@ -74,7 +77,7 @@ button {
 
 .free {
     background-color: #ff7a59;
-    border-color: #ff7a59;
+    border: 1px solid #fff;
     color: #fff;
 }
 
@@ -91,13 +94,11 @@ button {
 /* ------fine upper head part------ */
 /* -------inizio lower head part------ */
 
-.logo-part {
-    width: 300px;
+.logo-part  {
     height: 100px;
 }
 
 .logo-part img {
-    max-width: 100%;
     max-height: 100%;
 }
 
@@ -107,22 +108,27 @@ button {
 /* promo part under the header */
 
 .promo-side {
-    height: 100px;
     background-color: #425b76;
+    height: 100px;
+    padding: 20px 20px;
 }
 
-.promo-side p {
+.promotion {
+    height: 60px;
+    line-height: 30px;
+}
+
+
+.promotion p {
     font-size: 18px;
     color: white;
-    padding: 25px;
-    margin: 12px 5px;
     letter-spacing: 1px;
+
 }
 
 .promo-side p a {
     color: white;
 }
-
 
 /* ------fine promo part----- */
 
@@ -130,14 +136,14 @@ button {
 
 main {
     width: 100%;
-    height: 800px;
     background-color: #fff2ee;
+    border-bottom: 2px solid #425b76;
     /* background-image: url(https://www.npws.net/wp-content/uploads/2020/06/HubSpot-Background-2.png); */
 }
 
 .main-part {
     width: 430px;
-    padding: 80px 0;
+    padding: 80px 0 120px 0;
     color: #33475b;;
 
 }
