@@ -276,7 +276,6 @@ h2 {
 /* ------section 2------ */
 
 .second-section {
-    height: 1000px;
     background-color: #00bda5;
 }
 
@@ -299,3 +298,45 @@ h2 {
     padding: 20px 0;
 
 }
+
+.grid-box {
+    width: calc(100% / 4);
+    float: left;
+    padding: 30px;
+    color: white;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.right-part {
+    border-right: 0;
+}
+
+.bottom-part {
+    border-bottom: 0;
+}
+
+.bottom-right-part {
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.head-box {
+    text-align: center;
+}
+
+.box-description > h2 {
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.box-description > h2::after {
+    content: "+";
+    display: inline-block;
+}
+
+.second-section .container {
+    padding: 80px 0;
+}
+
+/* ------fine section 2------ */
