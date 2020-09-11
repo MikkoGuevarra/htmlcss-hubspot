@@ -282,11 +282,20 @@ h2 {
 
 .sec-title {
     margin: auto;
+    width: 75%;
+    padding: 112px;
+    color: white;
 }
 
 .second-section h2 {
     margin: auto;
     font-size: 32px;
-    color: white;
     text-align: center;
+}
+
+.second-section p {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+
 }
