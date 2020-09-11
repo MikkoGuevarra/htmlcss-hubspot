@@ -29,6 +29,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .upper-head-left, .upper-head-right, .nav-bar {
@@ -229,8 +230,8 @@ h2 {
  .new {
      background-color: #00bda5;
      position: absolute;
-     top: 3px;
-     right: 3px;
+     top: 0px;
+     right: 0px;
      font-size: 25px;
      border-radius: 50%;
      padding: 5px 10px;
@@ -277,4 +278,15 @@ h2 {
 .second-section {
     height: 1000px;
     background-color: #00bda5;
+}
+
+.sec-title {
+    margin: auto;
+}
+
+.second-section h2 {
+    margin: auto;
+    font-size: 32px;
+    color: white;
+    text-align: center;
 }
