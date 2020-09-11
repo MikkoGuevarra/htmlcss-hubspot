@@ -206,7 +206,30 @@ h2 {
 
 .products {
     background-color: #fff;
+    padding: 32px;
 }
  i {
      margin-right: 5px;
  }
+
+ h4 {
+     font-size: 22px;
+ }
+
+ .prod-description p {
+     padding: 40px 0;
+     border-bottom: 1px solid grey;
+ }
+
+.features p {
+    text-transform: uppercase;
+    padding: 26px 0;
+}
+
+.features ul li {
+    padding: 20px 20px;
+    display: block;
+    height: 40px;
+    line-height: 10px;
+    list-style: url(https://image.flaticon.com/icons/png/512/14/14946.png);
+}
