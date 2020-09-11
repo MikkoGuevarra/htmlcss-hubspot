@@ -107,6 +107,10 @@ button {
     max-height: 100%;
 }
 
+.nav-bar li a {
+    margin-left: 20px;
+}
+
 
 /* ------fine head part------ */
 
@@ -268,3 +272,9 @@ h2 {
 }
 
 /* ------fine section 1------ */
+/* ------section 2------ */
+
+.second-section {
+    height: 1000px;
+    background-color: #00bda5;
+}
