@@ -207,6 +207,7 @@ h2 {
 .products {
     background-color: #fff;
     padding: 32px;
+    position: relative;
 }
  i {
      margin-right: 5px;
@@ -221,13 +222,23 @@ h2 {
      border-bottom: 1px solid grey;
  }
 
+ .new {
+     background-color: #00bda5;
+     position: absolute;
+     top: 3px;
+     right: 3px;
+     font-size: 25px;
+     border-radius: 50%;
+     padding: 5px 10px;
+ }
+
 .features p {
     text-transform: uppercase;
     padding: 26px 0;
 }
 
 .features ul li {
-    padding: 20px 20px;
+    padding: 0 20px;
     display: block;
     height: 40px;
     line-height: 10px;
@@ -244,10 +255,16 @@ h2 {
 }
 
 .btn-free {
-    padding-top: 40px;
+    padding-top: 20px;
     text-align: center;
 }
 
 .btn-free button {
     padding: 12px 60px;
 }
+
+.products:hover {
+    transform: scale(1.014);
+}
+
+/* ------fine section 1------ */
