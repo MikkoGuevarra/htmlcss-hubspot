@@ -40,6 +40,38 @@ header {
     padding: 20px 0;
 }
 
+.upper-head-left {
+    position: relative;
+}
+
+.lang-drop {
+    border: 1px solid black;
+    display: none;
+    background-color: #fff;
+    position: absolute;
+}
+
+.lang-drop ul {
+    padding: 10px 0;}
+
+.lang-drop ul li {
+    display: block;
+    line-height: 30px;
+    height: 35px;
+}
+
+.lang-drop ul li a {
+    font-size: 16px;
+}
+
+.lang-drop li:hover {
+    background-color: lightblue;
+}
+
+.drop-container:hover .lang-drop {
+    display: block;
+}
+
 ul li {
     list-style: none;
     display: inline-block;
@@ -348,12 +380,17 @@ h2 {
 }
 
 .head-box img {
-    max-width: 100%;
+    max-width: 55%;
+}
+
+.box-description {
+    padding-top: 15px;
 }
 
 .box-description > h2 {
     font-size: 45px;
     letter-spacing: 2px;
+    line-height: 45px;
 }
 
 .box-description > .plus::after {
@@ -537,5 +574,6 @@ footer {
 .languages-selection ul li a:hover,
 .bottom-footer ul li a:hover {
     color: #7fd1de;
+    text-decoration: none;
 
 }
