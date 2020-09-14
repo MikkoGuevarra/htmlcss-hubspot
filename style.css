@@ -193,18 +193,21 @@ button {
 main {
     width: 100%;
     background-color: #fff2ee;
-    border-bottom: 2px solid #425b76;
+    /* border-bottom: 2px solid #425b76; */
     position: relative;
-    padding-bottom: 130px;
-    /* background-image: url(https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
-    background-size: cover; */
+    padding-bottom: 70px;
+    background-image: url(https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+    background-size: cover;
+    background-position: right;
+
     /* background-image: url(https://www.npws.net/wp-content/uploads/2020/06/HubSpot-Background-2.png); */
 }
 
 .main-part {
     width: 430px;
-    padding: 80px 0 120px 0;
+    padding-bottom: 60px;
     color: #33475b;
+    margin-bottom: 50px;
 }
 
 .img-svg img {
@@ -214,6 +217,7 @@ main {
 }
 
 h1 {
+    padding-top: 50px;
     font-size: 50px;
     letter-spacing: 2px;
     color: #425b76;
