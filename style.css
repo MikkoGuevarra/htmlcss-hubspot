@@ -592,11 +592,23 @@ div.fixed-chat {
 }
 
 div.window-chat {
-    height: 300px;
-    width: 300px;
+    width: 200px;
     border: 1px solid black;
-    background-color: pink;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    display: none;
 }
+
 .fixed-chat {
     text-align: right;
+    color: grey;
+}
+
+#chat-box {
+    text-align: left;
+}
+
+.fixed-chat:hover .window-chat {
+    display: block;
 }
