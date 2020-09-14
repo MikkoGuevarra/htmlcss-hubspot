@@ -605,7 +605,6 @@ div.window-chat {
     padding: 10px;
     background-color: #fff;
     color: black;
-    display: none;
 }
 
 .fixed-chat {
@@ -615,8 +614,4 @@ div.window-chat {
 
 #chat-box {
     text-align: left;
-}
-
-.fixed-chat:hover .window-chat {
-    display: block;
 }
