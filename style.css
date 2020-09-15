@@ -41,17 +41,43 @@ header {
     padding: 20px 0;
 }
 
-.upper-head-left {
+
+
+.lang-drop {
+    border: 1px solid #b8b8b8;
+    display: none;
+    background-color: #fff;
     position: relative;
 }
 
-.lang-drop {
-    border: 1px solid black;
-    display: none;
-    background-color: #fff;
-    position: absolute;
+/* ------triangle drop menu------ */
+.lang-drop:after,
+.lang-drop:before {
+	bottom: 100%;
+	right: 15px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
 }
 
+.lang-drop:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 5px;
+    right: 16px;
+    background-clip: padding-box;
+}
+
+.lang-drop:before {
+	border-color: rgba(184, 184, 184, 0);
+	border-bottom-color: #b8b8b8;
+	border-width: 6px;
+    background-clip: padding-box;
+}
+/* ------fine triangle------ */
 .lang-drop ul {
     padding: 10px 0;
     min-width: 140px;
@@ -638,4 +664,8 @@ div.window-chat {
     position: relative;
     left: 50%;
     margin-top: 10px;
+}
+
+.chat-icon:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
 }
