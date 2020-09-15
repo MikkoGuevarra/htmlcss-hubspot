@@ -605,13 +605,37 @@ div.window-chat {
     padding: 10px;
     background-color: #fff;
     color: black;
+    position: relative;
+}
+
+.robot {
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: 80%;
+    transform: translateX(-50%);
+}
+
+.robot img {
+    max-width: 100%;
+}
+
+.window-chat p {
+    padding: 10px;
 }
 
 .fixed-chat {
-    text-align: right;
     color: grey;
 }
 
-#chat-box {
-    text-align: left;
+.chat-icon {
+    background-color: grey;
+    color: white;
+    width: 80px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    margin-top: 10px;
 }
